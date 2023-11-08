@@ -1,0 +1,34 @@
+.tag-alternative {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.tag-alternative .content {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 4px 8px;
+  position: relative;
+}
+
+.tag-alternative .icon-heart {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.tag-alternative .tag-instance {
+  flex: 0 0 auto !important;
+}
+
+.tag-alternative .bordervisible-box {
+  align-self: stretch;
+  height: 4px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  position: relative;
+  width: 100%;
+}

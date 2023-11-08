@@ -1,0 +1,32 @@
+.tag {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  height: 18px;
+  position: relative;
+}
+
+.tag .typography-special {
+  font-family: var(--special-tag-font-family);
+  font-size: var(--special-tag-font-size);
+  font-style: var(--special-tag-font-style);
+  font-weight: var(--special-tag-font-weight);
+  letter-spacing: var(--special-tag-letter-spacing);
+  line-height: var(--special-tag-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tag .inverse {
+  color: var(--filltextinverse);
+}
+
+.tag .right {
+  text-align: right;
+}
+
+.tag .main {
+  color: var(--filltextprimary);
+}

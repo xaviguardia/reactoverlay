@@ -1,0 +1,1 @@
+export { CardImgMDefault } from "./CardImgMDefault";

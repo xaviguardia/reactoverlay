@@ -1,0 +1,1 @@
+export { TagAlternative } from "./TagAlternative";
